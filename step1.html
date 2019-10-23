@@ -1,0 +1,116 @@
+<!--21961082 이영서-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Jua|Nanum+Gothic+Coding|Pacifico|Signika&display=swap&subset=korean" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <title>견종 선택하기</title>
+  <style>
+
+  .ft01{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 7px;
+  }
+  .ft02{
+    font-family: 'Jua', sans-serif;
+  }
+  .ft03{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+  }
+  .ft04{
+    font-family: 'Signika', sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+  }.ft05{
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Jua";
+    color: #fc9251;
+  }
+  p {
+    color: #424242;
+    font-size: 12px;
+    font-family: "Nanum Gothic";
+  }
+  table, tr, th, td{
+    border: solid 1px #969696;
+    border-collapse: collapse;
+    padding: 8px;
+  }
+  th {
+    font-size: 13px;
+    font-family: "Nanum Gothic";
+  }
+  td{
+    font-size: 12px;
+    font-family: "Nanum Gothic";
+  }
+  #tbt {
+    background-color: #ffb587;
+  }
+  #tbd {
+    background-color: #ffffff;
+  }
+  h7 {
+    font-size: 9px;
+  }
+  #tbd_color{
+    color: #fc9251;
+    font-weight: bolder
+  }
+
+  </style>
+  </head>
+  <body>
+    <h3>1. 견종 선택하기</h3>
+    <p>반려견을 선택할 때, 외모나 크기만 보고 판단하는 경우가 많습니다. 하지만 그보다도 중요한건 바로 성격입니다.<br>
+    사람과 마찬가지로 절대적이진 않지만, 견종에 따라 천성적으로 갖고 있는 성격이 있습니다.<br>
+    이를 고려하여 자신의 라이프스타일, 거주환경과 맞는 견종을 선택한다면, 더 건강하고 원만한 관계를 유지할 수 있습니다.<br>
+    아래의 표를 참고하여 자신과 맞는 견종을 선택해봅시다.</p>
+
+    <table>
+      <tr id='tbt'>
+        <th>견종</th><th>사진</th><th>크기</th><th>성격</th><th>활동량/ 털빠짐</th>
+      </tr>
+      <tr id='tbd'>
+        <td id="tbd_color">포메라니안</td><td><img src='./img/po.jpg' width='135px' height='90px'></td><td>소형견</td>
+        <td>영리하고 호기심과 애교가 많음<br>욕심 많고 고집이 셈<br>체구에 비해 대범함<br>잘 흥분하고 짖는 편</td>
+        <td><progress value="0.7" max="1" >70%</progress><br><br><progress value="0.5" max="1">50%</progress></td>
+      </tr>
+      <tr id='tbd'>
+        <td id="tbd_color">말티즈</td><td><img src='./img/maltiz.jpg' width='135px' height='90px'></td><td>소형견</td>
+        <td>사람들과 친밀하게 지냄<br>질투와 응석이 많음<br>몹시 까다로움</td>
+        <td><progress value="0.75" max="1">75%</progress><br><br><progress value="0.5" max="1">50%</progress></td>
+      </tr>
+      <tr id='tbd'>
+        <td id="tbd_color">미니어쳐 푸들</td><td><img src='./img/poodle.jpg' width='135px' height='90px'></td><td>중형견</td>
+        <td>깜찍하고 사교적며 애교가 많음<br>지혜롭고 영리함<br>훈련에 빠르게 적응함<br>습득력과 기억력이 좋음</td>
+        <td><progress value="0.65" max="1">65%</progress><br><br><progress value="0.2" max="1">20%</progress></td>
+      </tr>
+      <tr id='tbd'>
+        <td id="tbd_color">보더콜리</td><td><img src='./img/boder.jpg' width='135px' height='90px'></td><td>중형견</td>
+        <td>영특하고 의욕적임<br>다정하고 사교적임<br>활력적이고 민첩함<br>총명하고 판단 능력이 뛰어남
+        <td><progress value="0.92" max="1">92%</progress><br><br><progress value="0.85" max="1">85%</progress></td>
+      </tr>
+      <tr id='tbd'>
+        <td id="tbd_color">사모예드</td><td><img src='./img/samo.jpg' width='135px' height='90px'></td><td>대형견</td>
+        <td>총명하고 충직함<br>동종에 사교적이고 우호적임<br>타종에 배타적임<br>생기발랄하고 활달함
+        <td><progress value="0.85" max="1">85%</progress><br><br><progress value="0.90" max="1">90%</progress></td>
+      </tr>
+      <tr id='tbd'>
+        <td id="tbd_color">골든 리트리버</td><td><img src='./img/golden.jpg' width='135px' height='90px'></td><td>대형견</td>
+        <td>건실하고 자신감 있음<br>친밀하고 애정이 많음<br>온순하고 느긋하며 쾌활함<br>공격적이지 않고 영리함
+        <td><progress value="0.9" max="1">90%</progress><br><br><progress value="0.90" max="1">90%</progress></td>
+      </tr>
+    </table>
+
+    <h7> 더 많은 견종 알아보기: <a href='https://terms.naver.com/list.nhn?searchId=au579'>한국애견협회 애견정보</a></h7>
+
+  </body>
+</html>
